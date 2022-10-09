@@ -45,11 +45,11 @@ function showShortcutsWindow() {
     storage.setDataPath(os.tmpdir());
 
     const shortcutsWindowOptions = {
-        width: 800,
-        height: 800,
+        width: 580,
+        height: 385,
         alwaysOnTop: true,
         resizable: false,
-        frame: false,
+        frame: true,
         show: false,
         webPreferences: {
             spellcheck: true,
